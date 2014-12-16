@@ -1,9 +1,8 @@
 
 $('#listeVideo').on('click', 'a', modifierTexte);
 
-function modifierTexte() {
-    
-    /*Récuperer text sur l'élément cliquer */
+function modifierTexte() {   
+    /*Récuperer text sur l'élément cliquez */
     
     var recupText = $(this).text();
     
